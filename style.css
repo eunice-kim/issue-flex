@@ -71,6 +71,7 @@ a, a:active, a:visited {
     top:320px;
     transform:rotate(25deg);
     filter:drop-shadow(-6px 6px 0 rgba(0,0,0,0.2));
+    z-index:3;
   }
 
    h1 {
@@ -109,6 +110,7 @@ a, a:active, a:visited {
   width:100vw;
   height:100vh;
   pointer-events:none;
+  z-index:3;
 }
 
  #sticky-note {
